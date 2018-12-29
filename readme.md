@@ -9,7 +9,7 @@ This Project uses Opencv's [OpenFace](https://cmusatyalab.github.io/openface/), 
 
     `cd Deep_facial_recognition`
 
-3) First run the following in terminal to install the dependencies
+3) First run the following in terminal to install dependencies
 
     `pip3 install -r requirements.txt`
 
