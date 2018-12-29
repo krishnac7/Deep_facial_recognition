@@ -115,13 +115,14 @@ while True:
 
 	fps.update()
 
-	cv2.putText(frame, "press q to Quit", (25, 50),
+	cv2.putText(frame, "press ESC to Quit", (25, 50),
 				cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 255, 255), 1)
 	cv2.imshow("Frame", frame)
 	key = cv2.waitKey(1) & 0xFF
 
-
-	if key == ord("q"):
+	if key % 256 == 27:
+		# ESC pressed
+		print("Escape hit, closing...")
 		break
 
 

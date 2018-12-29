@@ -14,7 +14,7 @@
 5) Add images of the New Person into directory
 6) Or use make_class.py to create classes
 
-###NOTE: Make sure you have atleast two classes in the dataset folder
+### NOTE: Make sure you have atleast two classes in the dataset folder
 
 7) execute the following to run facial recognition on a image
 
